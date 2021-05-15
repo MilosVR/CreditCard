@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.cards h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.card {
+    padding: 1rem;
+    height: 200px;
+    border-radius: .75rem;
+    background: linear-gradient(to right, #76809b, #d6dce7);
+}
+
+.card_wraper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.card_type {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+}
+
+.card_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_add span {
+    font-size: 4.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.card_numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.card_number span {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card_name_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_name_footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.cards_add form {
+    display: block;
+}
+
+.card_numbers_field input {
+    width: 100%;
+}
+
+.card_numbers_field {
+    display: flex;
+}
+
+.card_numbers_field input:nth-child(2) {
+    margin-left: .25rem;
+}
+
+.card_numbers_field input:nth-child(3) {
+    margin-left: .25rem;
+}
+
+.card_numbers_field input:nth-child(4) {
+    margin-left: .25rem;
+}
+
+.cards_add {
+    width: 400px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.cards_add h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card_add_wraper input {
+    border: 1px solid #d3d3d3;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
+
+.card_add_wraper .card {
+    margin-bottom: 1.5rem;
+}
+
+.card_name_field {
+    margin-bottom: 1.5rem;
+}
+
+.card_date_field {
+    margin: 1.5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_date_field input {}
+
+.btn_primary {
+    display: block;
+    background: dodgerblue;
+    color: #fff;
+    border-radius: .2rem;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: .75rem 0;
+    cursor: pointer;
+}
+
+.btn_primary.disabled {
+    opacity: .5;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing img {
+    margin: 2rem 0
+}
+
+.landing a {
+    background: #333;
+    color: limegreen;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
